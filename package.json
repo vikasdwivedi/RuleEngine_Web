@@ -1,0 +1,28 @@
+{
+  "name": "ruleenginapp",
+  "version": "1.0.0",
+  "description": "To showcase the working of rule engine",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "babel-start": "babel-node ./src/index.js",
+    "debug": "node ./index.js --debug",
+    "build": "babel ./src -d dist --source-maps"
+  },
+  "keywords": [
+    "rule",
+    "engine",
+    "demo"
+  ],
+  "author": "Vikas & Sravan",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "6.16.0",
+    "babel-core": "6.17.0",
+    "babel-loader": "6.2.5",
+    "babel-preset-latest": "6.16.0",
+    "babel-register": "6.16.3",
+    "express": "^4.16.3"
+  }
+}
