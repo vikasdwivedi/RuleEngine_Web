@@ -18,7 +18,7 @@
   "author": "Vikas & Sravan",
   "license": "ISC",
   "dependencies": {
-    "babel-cli": "6.16.0",
+    "babel-cli": "^6.26.0",
     "babel-core": "6.17.0",
     "babel-loader": "6.2.5",
     "babel-preset-latest": "6.16.0",
